@@ -1,0 +1,385 @@
+body
+{
+    margin:0;padding:0;border:0;
+    background: #fff; /*302e3f url(../images/back.png);*/
+    font-family: arial;
+    background: #333
+}
+
+.container{
+    position: absolute;
+/*    height: 100%;*/
+    width: 100%;
+    z-index: 0; 
+}
+
+.content960{
+    width: 960px;
+    min-height: 400px;
+    margin: 0 auto;
+   
+}
+
+.header{
+    width: 100%;
+    background: #333 url(../image/header.png) repeat-x;
+}
+
+.header div.head960
+{
+    width: 100%;
+    margin: 0 auto;
+    height: 70px;
+}
+
+.footer div.foot960{
+    width: 90%;
+    margin-left: 5%;
+    height: 60px;
+}
+
+.copyright{
+    
+    margin-left: 10px;  
+    width: 500px;
+    height: 25px;
+    font-size: 15px;
+    color: #666;
+}
+
+.sitemap{
+    width: 500px;
+    height: 25px;
+    font-size: 15px;
+}
+
+.sitemap ul{
+    padding: 0;
+    margin: 0;
+}
+
+.sitemap ul li{
+    list-style: none;
+    float: left;
+    color: #666;
+    margin-left: 10px;
+}
+
+.sitemap ul li:hover{
+    color: #619c30;
+    cursor: pointer;
+}
+
+.backbanner{
+        left: 0px;
+        background: url(../image/back.jpg) no-repeat top;
+        height: 400px;
+        width: 100%;
+        position: absolute;
+        top: 70px;
+        z-index: -10;
+}
+
+.login-daftar{
+    float: right;
+    margin-top: 20px;
+    margin-right: 5%;
+
+}
+
+.login-daftar ul{
+    padding: 0;margin: 0;
+    margin-right: 30px;
+    margin-top: 5px;
+}
+
+.login-daftar ul li{
+    list-style: none;
+    color: #999;
+    font-family: arial;
+    font-size: 15px;
+    float: left;
+    margin-left: 4px;
+}
+
+.login-daftar ul li:hover{
+    color: #D0D0D0;
+}
+
+.logo{
+    margin-left: 5%;
+    margin-top: 10px;
+    height: 90px;
+    width: 350px;
+    position: absolute;
+    top: 3px;
+    background: url(../image/logo.png) no-repeat;
+}
+
+.footer{
+    margin-top: 15px;
+    padding-top: 15px;
+    width: 100%;
+    height: 6   0px;
+    background: url(../image/footer.png) repeat-x;
+    sdsborder-top: 3px solid #669900;
+}
+
+.main{
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.backHeader{
+        left: 0px;
+        background: url(../image/slider.jpg) repeat-x top;
+        height: 400px;
+        width: 100%;
+        position: absolute;
+        top: 80px;
+        z-index: -10;
+    }
+    
+    .menu{
+       position: absolute;
+       width: 500px;
+       height: 30px;
+       left: 50%;
+       top: 60px;
+       color: #999;
+       margin-left: -10px;
+    }
+    
+    .menu ul{
+        padding: 0;
+        margin: 0;
+    }
+    
+    .menu ul li{
+        margin-left: 40px;
+        float: left;
+        font-size: 15px;
+        list-style: none;
+    }
+    
+    .menu ul li:hover{
+        color: #669900;
+        cursor: pointer;
+        
+    }
+    
+    .butdiv{
+        margin-top: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        text-align: center;
+        background: #669900;
+        color: #fff;
+        width: 120px;
+        cursor: pointer;
+    }
+    
+    .butdiv:hover{
+        background: #333;
+    }
+    
+    .tes1{
+        top: 30px;
+        width: 300px;
+        height: 30px;
+        color: #eee;
+        font-size: 14px;
+        border: #619c30 1px solid;
+        margin-top: 40px;
+        background: #f00;
+    }
+    
+    .sitemap1{
+        margin-top: 30px;
+        top: 20px;
+    }
+
+    .sitemap1 ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    .sitemap1 ul li{
+        list-style: none;
+        margin-left: 10px;
+        float: left;
+    }
+
+    .sitemap1 ul li:hover {
+        cursor: pointer;
+        color: #619c30;
+    }
+    
+    .page_login{
+        margin: 0 auto;
+        width: 500px;
+        background: #fff;
+        min-height: 300px;
+        box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.3);
+        border-radius: 5px 5px 5px 5px;
+        margin-bottom: 5px;
+    }
+
+    .page{
+        overflow: auto;
+        margin-top: 10px;
+        padding-top: 5px;
+        width: 100%;
+        min-height: 400px;
+    }
+    
+    .page div.sidebar{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: 5%;
+        width: 20%;
+        background: #fff;
+        min-height: 20px;
+        box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.3);
+        border-radius: 5px 5px 5px 5px;
+        float: left;
+        margin-bottom: 5px;
+    }
+    .page div.main_r{
+        margin-left: 10px;
+        width: 68%;
+        margin-right: 5%;
+        background: #fff;
+        min-height: 500px;
+        box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.3);
+        border-radius: 5px 5px 5px 5px;
+        float: left;
+        margin-bottom: 5px;
+    }
+    
+    .tabel_theme{
+        margin-left: -10px;
+        margin-top: 20px;
+        background: #ddd;
+    }
+    .tabel_theme thead tr{
+        padding: 0;
+        margin: 0;  
+    }
+    
+    .tabel_theme thead tr td,.tabel_theme thead tr th{
+        background: #333;
+        color: #fff;
+    }
+    
+    .tabel_theme tbody tr{
+        padding: 0;
+        margin: 0;
+    }
+    .tabel_theme tbody tr td{
+        background: #fff;
+        color: #333;
+    }
+    
+    
+    
+    .reg_input {
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.reg_input table{
+
+}
+
+.reg_input table tr{
+
+}
+
+.reg_input table tr td{
+    min-width: 20px;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.reg_input table tr td.eror_td{
+    font-size: 12px;
+    width: 240px;
+    padding: 0;margin: 0;
+    color: #8F5B00;
+    padding-left: 10px;
+}
+
+
+.reg_input table tr td .form_inti{
+
+}
+
+.reg_input input[type=text],input[type=password], input[type=date]{
+    width: 350px;
+    font-size: 15px;
+    height: 22px;
+}
+
+.reg_input select{
+    width: 256px;
+     font-size: 16px;
+     height: 30px;
+}
+
+.reg_input textarea{
+     width: 250px;
+    font-size: 15px;
+    
+
+}
+
+.reg_input input[type=file]{
+    width: 250px;
+    font-size: 16px;
+    height: 25px;
+}
+
+
+.reg_input input[type=submit]{
+    width: 100px;
+    font-size: 16px;
+    height: 40px;
+}
+
+.reg_input input[type=button]{
+    width: 60px;
+    margin-top: 1px;
+    font-size: 16px;
+    height: 28px;
+    border: none;
+    color: #fff;
+    background: #579800;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.tap_menu{
+    height: 50px;
+}
+    
+.tap_menu ul {
+    padding: 0;margin: 0;
+}
+
+.tap_menu ul li{
+    float: left;
+    padding: 5px;
+    background: #333;
+    color: #fff;
+    list-style: none;
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}

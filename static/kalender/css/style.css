@@ -1,0 +1,74 @@
+table.date {
+	border: 1px solid #999;
+	border-collapse: collapse;
+	font-family: Georgia, Times, serif;
+}
+.date th {
+	border: 1px solid #000;
+	text-transform: uppercase;
+	padding: 3px;
+	background-color: #9E3DFF;
+	color:#F2FFFF;
+}
+.date td {
+	border: 1px solid #999;
+	height: 5em;
+	width: 5em;
+	vertical-align: top;
+}
+caption {
+	font-size: 300%;
+	font-style: italic;
+}
+
+a{
+	text-decoration:none;
+}
+
+a.prev_date, a.next_date{
+	font-size:50%;
+}
+
+.add_note, .act_note{
+	cursor:pointer;
+}
+
+.add_note:hover, .act_note:hover{
+	color:#FF0000;
+	font-weight:bold;
+}
+
+.active, .notes {
+	background-color: #D8ADFF;
+}
+.t_active, .t_notes {
+	background-color: #FF7575;
+	font-weight:bold;
+}
+.today {
+	background-color: #80FFBF;
+}
+
+.active, .t_active, .day{
+	padding: 3px 0px 0px 6px;
+	height: 1em;
+}
+
+.today{
+	padding: 3px 0px 0px 6px;
+	height: 5em;
+}
+
+.notes, .t_notes{
+	padding: 6px 3px 16px 6px;
+	font-family: Georgia, "times new roman";
+	font-size: 13px;
+	height: 4em;
+}
+
+.weekend_sat {
+	background-color: #F3F3F3;
+}
+.weekend_sun {
+	background-color: #FFE5E5;
+}
